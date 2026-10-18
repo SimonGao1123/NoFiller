@@ -1,0 +1,17 @@
+[project]
+name = "nofiller"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Simon Gao", email = "simongao398@gmail.com" },
+    { name = "Alex Luo", email = "alex.luo1111@hotmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pyaudio>=0.2.14",
+    "vosk==0.3.44",
+]
+
+[tool.uv]
+package = false
